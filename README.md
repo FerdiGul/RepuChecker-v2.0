@@ -1,2 +1,2 @@
 # checkReputation
-Check url,ip reputation  on VirusTotal | McAffee (Customer URL Ticketing System) | AbuseIpDB
+Check domain reputation  on VirusTotal | McAffee (Customer URL Ticketing System) | AbuseIpDB
