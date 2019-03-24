@@ -1,7 +1,7 @@
 import mechanize
 from BeautifulSoup import BeautifulSoup
-import re,math,sys
-import datetime,time
+import re,sys
+import datetime
 import Tkinter
 import tkFileDialog
 import requests
