@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-
 #Check Reputation of url on VT,McAffee and AbuseIpDB
 #Developed by Ferdi Gül  | @0xfrd1
-
-
 
 import mechanize
 from BeautifulSoup import BeautifulSoup
