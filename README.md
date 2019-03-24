@@ -17,9 +17,10 @@ RepuChecker Tool help you to check URL/IP reputation on some platform such as se
 
 For now, only these engines I've listed as you can see below:
 
-McAfee (trustedsource.org | McAfee Web Gateway v7.x/6.9.x (Resident))
-VirusTotal (https://www.virustotal.com/gui/home/url)
-AbuseIpDB (abuseipdb.com)
+McAfee (trustedsource.org | McAfee Web Gateway v7.x/6.9.x (Resident)),
+VirusTotal (https://www.virustotal.com/gui/home/url),
+AbuseIpDB (abuseipdb.com),
+
 So, what can we perform via engines or dbs ?:
 
 In All of engines or dbs listed options, cheackable only single url/ip or one more than one urls or ips. 
