@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
+
 #Check Reputation of url on VT,McAffee and AbuseIpDB
 #Developed by Ferdi Gül  | @0xfrd1
 
-# -*- coding: utf-8 -*-
+
 
 import mechanize
 from BeautifulSoup import BeautifulSoup
@@ -12,7 +14,6 @@ import tkFileDialog
 import requests
 import time
 from random import choice
-
 
 
 br= mechanize.Browser()
@@ -128,7 +129,7 @@ def checkDomain_VT(urlist):
 		n=1
 		list_of_rows=[]
 		
-		with open(r'C:\Users\fgcom\Desktop\vt.html','a+') as output:
+		with open(r'vt.html','a+') as output:
 			output.writelines( "<br>"+"""<html><font color="black"><b> Report [ {domain} ]:   Detection [ {detect}] </b></font></html>""".format(domain=blacklist,detect=result)+"<br><br>")
 			output.close()
 				
@@ -236,7 +237,7 @@ def checkDomain_McAfee(urlist):
 		#output.truncate()
 		time.sleep(2)
 		with open(r'result.html','a+') as output:
-			output.writelines("""<html><body style="background-image:url('logo.png'); background-position: center;
+			output.writelines("""<html><body style="background-image:url('logo_mcafee.png'); background-position: center;
 		 background-repeat: no-repeat;
 		 background-size: cover; bgcolor="black";><table cellpadding="3" cellspacing="1" border="1" width="600px" style="margin-top: 15px; " align="center">
 			<tbody>
@@ -328,7 +329,7 @@ def checkDomain_abuseipdb(urlist):
 				today=datetime.datetime.now()
 				v4=today.strftime('%Y-%m-%d %H:%M:%S')
 				
-				with open(r'C:\Users\fgcom\Desktop\aidb.html','a+') as output:
+				with open(r'aidb.html','a+') as output:
 					output.writelines( """<html><font color="white"><b> Report [ {domain} ]: </b></font></html>""".format(domain=blacklist))
 				output.close()
 			
@@ -393,7 +394,7 @@ def checkDomain_abuseipdb(urlist):
 			print 'We can\'t resolve the domain {dom}!'.format(dom=blacklist)
 		
 		
-"""		
+		
 def api_random():
 
 	api = ['ac682438e4c5fbe08191647ca359c8a1158ff21978a4315f6599e3b5fb3490e1','4c0682eb9257c663c6e3dd594b43431cdf1e4919b25cf83ed7111ecd31fecc44','b8482dde75fba3bd03bab2771a82e547d5ba651e366bc901d07e00ee2abde28c','93f8ca6bba891cbca1bd7d8a1850c839a0ca8e528ddcdd1d5c18e049dfe04d08']
@@ -402,7 +403,7 @@ def api_random():
 	item = random.choice(api)
 	
 	return item
-"""
+
 
 
 	
