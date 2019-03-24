@@ -1,3 +1,8 @@
+#Check Reputation of url on VT,McAffee and AbuseIpDB
+#Developed by Ferdi Gül  | @0xfrd1
+
+# -*- coding: utf-8 -*-
+
 import mechanize
 from BeautifulSoup import BeautifulSoup
 import sys
