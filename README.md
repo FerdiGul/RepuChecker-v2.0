@@ -32,7 +32,6 @@ Any Python 2.x version >= 2.7.0. mechanize does not currently support python 3.
 What dependencies does mechanize need?
 html5lib
 
-Install pip on Windows:
-https://bootstrap.pypa.io/get-pip.py
-
+	Install pip on Windows:
+	https://bootstrap.pypa.io/get-pip.py
 	python get-pip.py
