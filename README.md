@@ -34,3 +34,5 @@ html5lib
 
 Install pip on Windows:
 https://bootstrap.pypa.io/get-pip.py
+
+	python get-pip.py
