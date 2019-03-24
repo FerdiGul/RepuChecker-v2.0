@@ -7,7 +7,7 @@ import tkFileDialog
 import requests
 import time
 from random import choice
-from fake_useragent import UserAgent
+
 
 
 br= mechanize.Browser()
