@@ -1,6 +1,6 @@
 import mechanize
 from BeautifulSoup import BeautifulSoup
-import re,sys
+import sys
 import datetime
 import Tkinter
 import tkFileDialog
