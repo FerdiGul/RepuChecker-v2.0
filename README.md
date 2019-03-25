@@ -47,7 +47,8 @@ Example: >pip install mechanize
 Note: on VT option you can see some notice about usage of api key: 
 	The Public API is limited to 4 requests per minute.
 	The Public API must not be used in commercial products or services.
-	The Private API returns more threat data and exposes more endpoints.
+	The Private API returns 
+	threat data and exposes more endpoints.
 	The Private API is governed by an SLA that guarantees readiness of data.
 	
 
@@ -68,4 +69,4 @@ VirusTotal (https://www.virustotal.com/gui/home/url)
 AbuseIpDB (abuseipdb.com)
 So, what can we perform via engines or dbs ?:
 
-In All of engines or dbs listed options, cheackable only single url/ip or one more than one urls/ips.
+In All of engines or dbs listed options, cheackable only single url/ip or more than one urls/ips.
