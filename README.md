@@ -50,3 +50,15 @@ Install Modules for project:
 	from random import choice
 	
 Example: >pip install mechanize
+
+Note: on VT option you can see some notice about usage of api key: 
+	The Public API is limited to 4 requests per minute.
+	The Public API must not be used in commercial products or services.
+	The Private API returns more threat data and exposes more endpoints.
+	The Private API is governed by an SLA that guarantees readiness of data.
+But you can send random http headers and api keys for pass it :). But if you want to use your premium api key, yes only you can add your api key in this section:
+
+def checkDomain_VT(urlist):
+
+	api = ['   <api key is here>   ']
+
