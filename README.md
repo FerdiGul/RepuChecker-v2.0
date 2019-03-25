@@ -16,15 +16,7 @@ Note: Details of project are on my blog: https://ferdigul.com/repuchecker-v1tool
 
 RepuChecker Tool help you to check URL/IP reputation on some platform such as security engines and ip database..
 
-For now, only these engines I've listed as you can see below:
 
-McAfee ( https://www.trustedsource.org/ | McAfee Web Gateway v7.x/6.9.x (Resident) ),
-VirusTotal ( https://www.virustotal.com/gui/home/url ),
-AbuseIpDB ( https://www.abuseipdb.com/ ),
-
-So, what can we perform via engines or dbs ?:
-
-In All of engines or dbs listed options, cheackable only single url/ip or one more than one urls or ips. 
 
 
 Which version of Python do I need?
@@ -63,7 +55,7 @@ Note: on VT option you can see some info about usage of api key:
 
 https://developers.virustotal.com/v2.0/reference#public-vs-private-api
 
-But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes only  add your api key in this section:
+But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes just add your api key in this section:
 
 def checkDomain_VT(urlist):
 
