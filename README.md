@@ -37,6 +37,7 @@ html5lib
 Install pip on Windows:
 	https://bootstrap.pypa.io/get-pip.py
 	python get-pip.py
+	
 
 Install Modules for project:
 	import mechanize
@@ -56,9 +57,23 @@ Note: on VT option you can see some notice about usage of api key:
 	The Public API must not be used in commercial products or services.
 	The Private API returns more threat data and exposes more endpoints.
 	The Private API is governed by an SLA that guarantees readiness of data.
-But you can send random http headers and api keys for pass it :). But if you want to use your premium api key, yes only you can add your api key in this section:
+	
+
+Note: on VT option you can see some info about usage of api key: 
+
+https://developers.virustotal.com/v2.0/reference#public-vs-private-api
+
+But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes only  add your api key in this section:
 
 def checkDomain_VT(urlist):
 
 	api = ['   <api key is here>   ']
 
+or now, only these engines I’ve listed as you can see below:
+
+McAfee (trustedsource.org | McAfee Web Gateway v7.x/6.9.x (Resident))
+VirusTotal (https://www.virustotal.com/gui/home/url)
+AbuseIpDB (abuseipdb.com)
+So, what can we perform via engines or dbs ?:
+
+In All of engines or dbs listed options, cheackable only single url/ip or one more than one urls/ips.
