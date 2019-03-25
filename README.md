@@ -12,7 +12,7 @@
 Developed by @FerdiGul  
 You have an idea about project? Contact me : @0xfrd1
 
-Note: Details of project are on my blog: https://ferdigul.com/repuchecker-v1tool
+Note: Details of project are on my blog: https://ferdigul.com/repuchecker-v1-tool/
 
 RepuChecker Tool help you to check URL/IP reputation on some platform such as security engines and ip database..
 
