@@ -7,10 +7,10 @@
 	| | |_|_\___| .__/\_,_|\___|_||_\___\__|_\_\___|_|    \_/|_(_)__/  | |
 	|_|         |_|                                                    |_|
 		
-		The Reputation Checker on VT - McAffee - AbuseIpDB [ @2019 ]<br>
+		<b> The Reputation Checker on VT - McAffee - AbuseIpDB [ @2019 ]</b><br>
 
-Developed by @FerdiGul  <br>
-You have an idea about project? Contact me : @0xfrd1<br>
+<b>Developed by @FerdiGul </b> <br>
+<b>You have an idea about project? Contact me : @0xfrd1</b><br>
 
 Note: Details of project are on my blog: https://ferdigul.com/repuchecker-v1-tool/<br>
 
