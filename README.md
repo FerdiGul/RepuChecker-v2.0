@@ -23,8 +23,6 @@ Which version of Python do I need?
 Any Python 2.x version >= 2.7.0. mechanize does not currently support python 3.
 #Install Python 2.7.x: https://www.python.org/downloads/release/python-2716/
 
-What dependencies does mechanize need?
-html5lib
 
 Install pip on Windows:
 	https://bootstrap.pypa.io/get-pip.py
