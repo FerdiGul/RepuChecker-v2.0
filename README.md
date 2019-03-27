@@ -42,7 +42,7 @@ Install Modules for project:<br>
 	
 Example: >pip install mechanize<br>
 
-<b><b>Note:</b> on VT option you can see some notice about usage of api key: <br>
+<b>Note:</b> on VT option you can see some notice about usage of api key: <br>
 	The Public API is limited to 4 requests per minute.<br>
 	The Public API must not be used in commercial products or services.<br>
 	The Private API returns <br>
