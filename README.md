@@ -54,7 +54,7 @@ Note: on VT option you can see some info about usage of api key: <br>
 
 https://developers.virustotal.com/v2.0/reference#public-vs-private-api<br>
 
-<b>But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes just add your api key in this section:</b><br>
+<b>But you can send random http headers and api keys to pass it :). But if you wanna use your premium api key, yes just add your api key in this section:</b><br>
 
 def checkDomain_VT(urlist):
 
