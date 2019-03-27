@@ -12,14 +12,14 @@
 <b>Developed by @FerdiGul </b> <br>
 <b>You have an idea about project? Contact me : @0xfrd1</b><br>
 
-Note: Details of project are on my blog: https://ferdigul.com/repuchecker-v1-tool/<br>
+<b>Note:</b> Details of project are on my blog: https://ferdigul.com/repuchecker-v1-tool/<br>
 
-RepuChecker Tool help you to check URL/IP reputation on some platform such as security engines and ip database..<br>
-
-
+<b>RepuChecker Tool help you to check URL/IP reputation on some platform such as security engines and ip database..</b><br>
 
 
-Which version of Python do I need?<br>
+
+
+<b>Which version of Python do I need?</b><br>
 Any Python 2.x version >= 2.7.0. mechanize does not currently support python 3.<br>
 #Install Python 2.7.x: https://www.python.org/downloads/release/python-2716/<br>
 
@@ -42,7 +42,7 @@ Install Modules for project:<br>
 	
 Example: >pip install mechanize<br>
 
-Note: on VT option you can see some notice about usage of api key: <br>
+<b><b>Note:</b> on VT option you can see some notice about usage of api key: <br>
 	The Public API is limited to 4 requests per minute.<br>
 	The Public API must not be used in commercial products or services.<br>
 	The Private API returns <br>
@@ -54,7 +54,7 @@ Note: on VT option you can see some info about usage of api key: <br>
 
 https://developers.virustotal.com/v2.0/reference#public-vs-private-api<br>
 
-But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes just add your api key in this section:<br>
+<b>But you can send random http headers and api keys for pass it :). But if you wanna use your premium api key, yes just add your api key in this section:</b><br>
 
 def checkDomain_VT(urlist):
 
