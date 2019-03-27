@@ -62,8 +62,8 @@ def checkDomain_VT(urlist):
 
 For now, only these engines were added on tool I’ve listed as you can see below:
 
-McAfee (trustedsource.org | McAfee Web Gateway v7.x/6.9.x (Resident))
-VirusTotal (https://www.virustotal.com/gui/home/url)
+McAfee (trustedsource.org | McAfee Web Gateway v7.x/6.9.x (Resident)), <br>
+VirusTotal (https://www.virustotal.com/gui/home/url),
 AbuseIpDB (abuseipdb.com)
 So, what can we perform via engines or dbs ?:
 
