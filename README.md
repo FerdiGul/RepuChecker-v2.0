@@ -20,7 +20,7 @@
 
 
 <b>Which version of Python do I need?</b><br>
-Any Python 2.x version >= 2.7.0. mechanize does not currently support python 3.<br>
+Any Python 2.x version >= 2.7.0. mechanize does not currently support python 3.<br>  |  YOU CAN USE FOR PYTHON 3.0 in RepuChecker-v2.0
 #Install Python 2.7.x: https://www.python.org/downloads/release/python-2716/<br>
 
 
